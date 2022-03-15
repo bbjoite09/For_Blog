@@ -1,15 +1,8 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
-const App = () => {
-  return <SafeAreaView style={styles.Container}></SafeAreaView>;
-};
+import O_Array from './src/button_state_update/O_Array';
 
-const styles = StyleSheet.create({
-  Container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+const App = () => {
+  return <O_Array />;
+};
 
 export default App;
